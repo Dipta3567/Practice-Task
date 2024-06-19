@@ -1,0 +1,341 @@
+  *
+{
+ margin: 0px;
+ padding: 0px;
+}
+header
+{
+    background-image: url('images/Div\ [banner].png');
+}
+nav
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    
+}
+.logo
+{
+    width: 50px;
+}
+.logo-container
+{
+    
+    margin-right: 30%;
+}
+a
+{
+    text-decoration: none;
+    color: orange;
+    
+}
+.menu-container
+{
+    display: flex;
+    gap: 40px;
+    color: orange;
+}
+.banner-container
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    margin: auto;
+
+}
+.banner-left
+{
+    width: 400px;
+    line-height: 1.5;
+    
+}
+.btn{
+   padding: 15px 30px;
+   border: none;
+   color: black;
+   cursor: pointer;
+}
+.btn-react
+{
+  background-color: orange;
+}
+.des
+{
+    font-size: 20px;
+    color: orange;
+}
+.description
+{
+    font-size: 40px;
+    color: white;
+}
+.banner-img
+{
+    width: 350px;
+}
+
+
+
+
+
+
+.icons
+{
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    margin-top: 30px;
+}
+.icons img
+{
+    width: 10%;
+    height: 4%;
+}
+.service-container
+{
+    margin-top: 5%;
+}
+.service-desc
+{
+    text-align: center;
+    font-size: 30px;
+    
+}
+.design
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.lorem1
+{
+    display: flex;
+    justify-content: center;
+}
+.lorem
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.service-card
+{
+    width: 400px;
+    height: 300px;
+    border-radius: 7px;
+    text-align: center;
+    margin-top: 50px;
+    box-shadow: rgb(128, 128, 128);
+    border: 2px solid black;
+}
+.service-img
+{
+    width: auto;
+    margin: 15px;
+    padding: 10px;
+}
+.services
+{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+.outer
+{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 3%;
+    align-items: center;
+    width: 100%;
+    margin: auto;
+    gap: 5%;
+    
+}
+.outer-left
+{
+    padding-left: 10%;
+    
+}
+.outer-img
+{
+    width: 450px;
+}
+.hire-btn
+{
+    color: black;
+    background-color: skyblue;
+    
+}
+.outer-right
+{
+    padding-bottom: 5%;
+    line-height: 1.5;
+    
+}
+.call-icon
+{
+    display: flex;
+    gap: 15px;
+    width: 100%;
+    margin: auto;
+    margin-top: 25px;
+}
+.fa-phone
+{
+    font-size: 50px;
+}
+.call-right-font
+{
+    font-size: 30px;
+}
+.number
+{
+    font-size: 30px;
+}
+input {
+    line-height: 2em; 
+    background-color: gray;
+    color: white;
+}
+input::placeholder {
+    color: white;
+}
+
+.footer-opt
+{
+    
+    background-color: black;
+    color: white;
+    padding-bottom: 5%;
+}
+.details-card
+{
+    width: 20%;
+    border-radius: 7px;
+    text-align: center;
+}
+.details-left-section
+{
+    display: flex;
+    justify-content: center;
+
+}
+.learn-more
+{
+    font-size: large;
+    text-align: center;
+}
+.details-card-center
+{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    width: auto;
+}
+.details-card-right
+{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    
+}
+.footar-details
+{
+    display: flex;
+    justify-content: center;
+    gap: 250px;
+    text-align: center;
+    padding-top: 5%;
+}
+.details-center-card
+{
+    line-height: 1.8em;
+}
+.details-right-card
+{
+    padding-top: 10px;
+}
+
+
+@media (max-width: 1023px) {
+    .banner-container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .banner-left, .banner-right {
+        width: 100%;
+        text-align: center;
+        padding: 0 20px;
+    }
+    .banner-img {
+        width: 80%;
+        height: auto;
+    }
+    .icons img {
+        width: 8%;
+        height: auto;
+    }
+    .service-card {
+        width: 45%;
+        margin-top: 30px;
+    }
+    .outer {
+        flex-direction: column;
+    }
+    .outer-left, .outer-right {
+        width: 100%;
+        text-align: center;
+        padding: 0 20px;
+    }
+    .outer-img {
+        width: 80%;
+        height: auto;
+    }
+    .details-card {
+        width: 80%;
+        margin: 20px auto;
+    }
+    .footar-details {
+        flex-direction: column;
+        gap: 50px;
+    }
+}
+
+@media (max-width: 767px) {
+    .menu-container {
+        display: none;
+    }
+    .logo-container {
+        margin-right: 10px;
+    }
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+    .banner-img {
+        width: 100%;
+        height: auto;
+    }
+    .icons {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 30px;
+    }
+    .service-card {
+        width: 80%;
+    }
+    .outer-img {
+        width: 100%;
+        height: auto;
+    }
+    .details-card {
+        width: 100%;
+    }
+    .footar-details {
+        flex-direction: column;
+        gap: 30px;
+        padding: 5% 10%;
+    }
+}

@@ -1,0 +1,62 @@
+.carousel-caption-box {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background-color: black;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: left;
+    width: 550px;
+  }
+  
+  .carousel-caption-box h5 {
+    color: #fff;
+    font-size: 24px;
+    margin: 0;
+  }
+  
+  .carousel-caption-box p {
+    color: #ccc;
+    margin: 10px 0 0;
+  }
+  
+  .program-card {
+    position: relative;
+    border: none;
+    border-radius: 15px;
+    overflow: hidden;
+  }
+  
+  .program-card img {
+    width: 100%;
+    border-radius: 15px;
+    filter: brightness(70%);
+  }
+  
+  .program-card-body {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    color: white;
+    padding: 20px;
+    text-align: left;
+    width: calc(100%  40px);
+  }
+  
+  .program-card-body h5 {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .program-card-body p {
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  
+  .program-card-body .btn {
+    background-color: #ff4a4a;
+    border: none;
+    margin-top: 15px;
+  }
+
+  

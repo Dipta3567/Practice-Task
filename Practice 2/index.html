@@ -1,0 +1,497 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap practice 2</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.7.2/font/bootstrap-icons.min.css" rel="stylesheet">
+  <link href="style.css" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-expand-md  bg-body-tertiary my-2">
+        <div class="container-fluid d-flex justify-content-around">
+          <a class="navbar-brand" href="#">Hockey<span class="text-danger">'s</span></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active text-danger" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Pages</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+            </ul>
+          </div>
+          <form class="d-flex">
+            <a class="nav-link pe-2" href="#"><span class="fas fa-search"></span></a>
+            <a class="btn btn-danger text-white ms-2" href="#">Get Ticket</a>
+          </form>
+        </div>
+    </nav>
+
+    <section class="container-fluid">
+      <div class="d-flex justify-content-center">
+        <div id="carouselExampleAutoplaying" class="carousel slide w-100 h-75" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active position-relative">
+              <img src="Images/1.png" class="d-block w-100" alt="...">
+              <div class="carousel-caption-box">
+                <h5>Meet all the heroes from the field</h5>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              </div>
+            </div>
+            <div class="carousel-item position-relative">
+              <img src="Images/1.png" class="d-block w-100" alt="...">
+              <div class="carousel-caption-box">
+                <h5>Meet all the heroes from the field</h5>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              </div>
+            </div>
+            <div class="carousel-item position-relative">
+              <img src="Images/1.png" class="d-block w-100" alt="...">
+              <div class="carousel-caption-box">
+                <h5>Meet all the heroes from the field</h5>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+  </header>
+
+  <main>
+
+    <section class="container-fluid">
+      <hr class="border-top border-style-dotted border-4 opacity-50 mt-5">
+
+      <h1 class="text-center mt-2 mb-3"> Professional Hockeys Club</h1>
+      <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      <p class="text-center mb-3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit, labore.</p>
+      <hr class="border-top border-style-dotted border-4 opacity-50 mt-5">
+    </section>
+
+    <section class="container-fluid">
+      
+      <img src="Images/Group 21.png" class="rounded mx-auto d-block mt-4 mb-4" alt="">
+      <hr class="border-top border-style-dotted border-4 opacity-50 mt-5 mb-5">
+    </section>
+
+    <section class="container-fluid">
+      <h1 class="text-center mt-2 mb-3"> Program Sections</h1>
+      <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      <p class="text-center mb-3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit, labore.</p>
+      <hr class="border-top border-style-dotted border-4 opacity-50 mt-5">
+    </section>
+
+
+    <section class="container-fluid mb-5">
+      <div class="row gap-0">
+        <div class="col-md-6">
+          <div class="card program-card">
+            <img src="Images/2.png" class="card-img-top" alt="Junior Program">
+            <div class="program-card-body">
+              <h5 class="card-title">Junior Program</h5>
+              <p class="card-text">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor congue sed et in.</p>
+              <a href="#" class="btn btn-danger">Register Now!</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="card program-card">
+            <img src="Images/3.png" class="card-img-top" alt="Teenager Program">
+            <div class="program-card-body">
+              <h5 class="card-title">Teenager Program</h5>
+              <p class="card-text">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor congue sed et in.</p>
+              <a href="#" class="btn btn-danger">Register Now!</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-12 mt-3">
+          <div class="card program-card">
+            <img src="Images/4.png" class="card-img-top" alt="Professional Program">
+            <div class="program-card-body">
+              <h5 class="card-title">Professional Program</h5>
+              <p class="card-text">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor congue sed et in.</p>
+              <a href="#" class="btn btn-danger">Register Now!</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="container-fluid">
+      <hr class="border-top border-style-dotted border-4 opacity-50 mt-5">
+
+      <h1 class="text-center mt-2 mb-3"> Our New Products</h1>
+      <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      <p class="text-center mb-3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit, labore.</p>
+      <hr class="border-top border-style-dotted border-4 opacity-50 mt-5">
+    </section>
+
+    <section class="container-fluid mb-5">
+      <div class="row d-flex justify-content-center gap-3">
+        
+        <div class="card mb-3 col-6" style="max-width: 540px;">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="Images/5.png" class="img-fluid rounded-start pt-3" alt="...">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <img src="Images/Group 36.png" alt="">
+                <h5 class="card-title">World Class Flags Football</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus, fuga!</p>
+                <img src="Images/Group 37.png" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card mb-3 col-6" style="max-width: 540px;">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="Images/6.png" class="img-fluid rounded-start pt-3" alt="...">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <img src="Images/Group 36.png" alt="">
+                <h5 class="card-title">World Class Flags Football</h5>
+                <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus, vero.</p>
+                <img src="Images/Group 37.png" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row d-flex justify-content-center gap-3">
+        <div class="card mb-3 col-6" style="max-width: 540px;">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="Images/7.png" class="img-fluid rounded-start pt-3" alt="...">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <img src="Images/Group 36.png" alt="">
+                <h5 class="card-title">World Class Flags Football</h5>
+                <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam, fuga.</p>
+                <img src="Images/Group 37.png" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card mb-3 col-6" style="max-width: 540px;">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="Images/8.png" class="img-fluid rounded-start pt-3" alt="...">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <img src="Images/Group 36.png" alt="">
+                <h5 class="card-title">World Class Flags Football</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia, dolor.</p>
+                <img src="Images/Group 37.png" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row d-flex justify-content-center gap-3">
+        <div class="card mb-3 col-6" style="max-width: 540px;">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="Images/9.png" class="img-fluid rounded-start pt-3" alt="...">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <img src="Images/Group 36.png" alt="">
+                <h5 class="card-title">World Class Flags Football</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. In, aperiam?</p>
+                <img src="Images/Group 37.png" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card mb-3 col-6" style="max-width: 540px;">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="Images/10.png" class="img-fluid rounded-start pt-3" alt="...">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <img src="Images/Group 36.png" alt="">
+                <h5 class="card-title">World Class Flags Football</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, dolorem?</p>
+                <img src="Images/Group 37.png" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      </div>
+    </section>
+
+    <section class="container-fluid">
+      <hr class="border-top border-style-dotted border-4 opacity-50 mt-5">
+
+      <h1 class="text-center mt-2 mb-3"> Clients Question</h1>
+      <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      <p class="text-center mb-3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit, labore.</p>
+      <hr class="border-top border-style-dotted border-4 opacity-50 mt-5">
+    </section>
+
+
+    <section class="container-fluid mb-5 mt-4">
+      <div class="card p-3">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="Images/11.png" class="img-fluid rounded-start" alt="...">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <div class="accordion accordion-flush" id="accordionFlushExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                      <b>Our Equipmen</b>
+                    </button>
+                  </h2>
+                  <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit enim 
+                      sagittis turpis in magna.</div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                      <b>Hockey Training</b>
+                    </button>
+                  </h2>
+                  <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                      <b>Private Lessons</b>
+                    </button>
+                  </h2>
+                  <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                      <b>Ski Touring</b>
+                    </button>
+                  </h2>
+                  <div id="flush-collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+                      <b>Booking</b>
+                    </button>
+                  </h2>
+                  <div id="flush-collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSix">
+                      <b>Pricings</b>
+                    </button>
+                  </h2>
+                  <div id="flush-collapseSix" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="container-fluid">
+      <hr class="border-top border-style-dotted border-4 opacity-50 mt-5">
+
+      <h1 class="text-center mt-2 mb-3"> Get In Touch</h1>
+      <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      <p class="text-center mb-3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit, labore.</p>
+      <hr class="border-top border-style-dotted border-4 opacity-50 mt-5">
+    </section>
+
+
+    <section class="container-fluid d-flex">
+
+      <div class="card ps-4 pt-2 col-7 ms-4" style="width: 25rem;">
+        <div class="card-body">
+          <div class="card p-3 bg-success p-2 text-white bg-opacity-75 mb-3" style="width: 18rem;">
+            <img src="Images/Group 1171275317.png" class="card-img-top w-25" alt="...">
+            <div class="card-body">
+              <p class="card-text">Phone Number :</p>
+              <b class="card-text">(+62) 123-321-543</b>
+            </div>
+          </div>
+  
+          <div class="card p-3 mb-3" style="width: 18rem; background-color: rgb(216, 221, 166);">
+            <img src="Images/Group 1171275318.png" class="card-img-top w-25" alt="...">
+            <div class="card-body">
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+          </div>
+  
+          <div class="card p-3 mb-3" style="width: 18rem; background-color: rgb(146, 202, 237);">
+            <img src="Images/Group 1171275321.png" class="card-img-top w-25" alt="...">
+            <div class="card-body">
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+      <div class="container-fluid mt-5">
+        <form class="h-100">
+          <div class="row mb-3">
+            <div class="col-md-6">
+              <label for="name" class="form-label">Your Name</label>
+              <input type="text" class="form-control" id="name" placeholder="Enter your full name">
+            </div>
+            <div class="col-md-6">
+              <label for="email" class="form-label">Your Email</label>
+              <input type="email" class="form-control" id="email" placeholder="Enter your email">
+            </div>
+          </div>
+          <div class="row mb-3">
+            <div class="col-md-6">
+              <label for="subject" class="form-label">Subject</label>
+              <input type="text" class="form-control" id="subject" placeholder="Enter your subject">
+            </div>
+            <div class="col-md-6">
+              <label for="phone" class="form-label">Phone Number</label>
+              <input type="text" class="form-control" id="phone" placeholder="Enter your phone number">
+            </div>
+          </div>
+          <div class="mb-3">
+            <label for="message" class="form-label">Message</label>
+            <textarea class="form-control" id="message" rows="5" placeholder="Write your message"></textarea>
+          </div>
+          <button type="submit" class="btn btn-danger w-100">Send Message</button>
+        </form>
+      </div>
+
+    </section>
+
+
+    <section class="container-fluid bg-secondary mt-3 p-4">
+      <section class="container-fluid align-content-center ms-5">
+        <div class="row">
+          <h1 class="col-12 text-center">Social Media</h1>
+        </div>
+      </section>
+      <section class="container-fluid d-flex justify-content-center  align-content-center">
+        
+          <div>
+            <a class=" ps-5" href="#"><span class="fab fa-facebook-f"></span></a>
+            <a class="ps-4 pe-3" href="#"><span class="fab fa-twitter"></span></a>
+            <a class="pe-3" href="#"><span class="fab fa-instagram"></span></a>
+            <a class="pe-3" href="#"><span class="fab fa-linkedin-in"></span></a>
+            <a class="pe-3" href="#"><span class="fab fa-youtube"></span></a>
+          </div>
+      </section>
+    </section>
+    
+  </main>
+
+  <footer class="bg-black text-light p-5 mt-5">
+    <section class="container-fluid d-flex justify-content-around">
+      <section class="container-fluid">
+        <h1 class="text-start mb-2">Get In Touch</h1>
+        <p class="text-start ">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat, harum illo sed eum accusantium ducimus est voluptatum quam maxime ex.</p>
+        
+        <div class="text-start">
+          <p><i class="bi bi-envelope"></i> hockeys@support.com</p>
+          <p><i class="bi bi-telephone"></i> (+62) 123-321-543</p>
+        </div>
+      </section>
+
+      <section class="container-fluid d-flex justify-content-around">
+        <div>
+          <h3 class="text-center mb-3">Company</h3>
+          <p class="text-start">
+            About us
+            <br><br>
+            Leadership
+            <br><br>
+            Careers
+            <br><br>
+            News & Article
+            <br><br>
+            Legal Notic
+          </p>
+        </div>
+        <div>
+          <h3 class="text-center mb-3">Support</h3>
+          <p class="text-start">
+            Help Center
+            <br><br>
+            FAQ
+            <br><br>
+            Ticket Support
+            <br><br>
+            Contact Us
+          </p>
+        </div>
+        <div>
+          <h3 class="text-center mb-3">Services</h3>
+          <p class="text-start">
+            Academy
+            <br><br>
+            Group Lesson
+            <br><br>
+            Private Lesson
+            <br><br>
+            Hockeys for kids
+            <br><br>
+            Hockeys for Adult
+          </p>
+        </div>
+      </section>
+    </section>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
